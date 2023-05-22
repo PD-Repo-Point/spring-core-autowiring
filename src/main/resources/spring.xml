@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        Autowiring in XML  ->
+            - byName
+            - byType
+            - constructor
+    -->
+
+    <!-- Autowiring byName -->
+    <!-- Injecting CustomerDao by setter methods otherwise will return null-->
+    <!--bean id="customerService" class="pd.example.CustomerService" autowire="byName"></bean-->
+
+    <!--bean id="customerDao" class="pd.example.CustomerDao"></bean-->
+
+    <!-- Autowiring byType -->
+    <!--bean id="customerService" class="pd.example.CustomerService" autowire="byType"></bean-->
+
+    <!--bean id="customerDao1" class="pd.example.CustomerDao"></bean-->
+
+    <!--bean id="customerDao2" class="pd.example.CustomerDao"></bean-->
+
+    <!-- Autowiring constructor -->
+    <!--bean id="customerService" class="pd.example.CustomerService" autowire="constructor"></bean-->
+
+    <!--bean id="customerDao" class="pd.example.CustomerDao"></bean-->
+
+
+
+</beans>
